@@ -21,7 +21,7 @@ setuptools.setup(
     install_requires=[
         "opencv-python",
         "mtcnn",
-        "sklearn",
+        "scikit-learn==0.24.2",
         "tqdm",
         "numpy",
         "keras_facenet",
